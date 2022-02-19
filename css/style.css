@@ -19,7 +19,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  max-height: 100vh;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3f4b59), to(#333d46));

@@ -111,7 +111,7 @@ const copyText = () => {
         textField.select();
         document.execCommand('copy');
     }else{
-        info.textContent = 'Pole hasło jest puste. Najpierw musisz wygenerować hasło.'
+        info.textContent = 'Przed skopiowaniem musisz wygenerować hasło.'
         error.textContent = '';
     }
 }
