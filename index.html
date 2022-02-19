@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator haseł</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ea03eb269.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h3>Generator haseł</h3>
+    <p>Wyznacz wymogi dla hasła</p>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-label">
+                <label for="">Ilość znaków</label>
+            </div>
+            <div class="box-input">
+                <input type="number" class="input-number">
+            </div>
+        </div>
+
+        <div class="box-content">
+            <div class="box-label">
+                <label for="">Cyfry</label>
+            </div>
+            <div class="box-input">
+                <input type="checkbox" class="input-changeNum">
+            </div>
+        </div>
+
+        <div class="box-content">
+            <div class="box-label">
+                <label for="">Znaki specjalne</label>
+            </div>
+            <div class="box-input">
+                <input type="checkbox" class="input-charsSpecial">
+            </div>
+        </div>
+
+        <div class="box-btn">
+            <button class="btn-random"><i class="fas fa-key"></i>Generuj haslo..</button>
+            <span></span>
+        </div>
+
+        <div class="box-action">
+            <input type="text" class="donePass">
+            <button class="btn-copy"><i class="fas fa-copy"></i>Kopiuj hasło</button> 
+        </div>
+
+        <div class="copy-info"></div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
